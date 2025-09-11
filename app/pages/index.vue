@@ -209,28 +209,28 @@ const skillCategories: SkillCategory[] = [
     name: t("skill_categories.languages.name"),
     color: "bg-blue-500",
     skills: (tm("skill_categories.languages.skills") as unknown as any[]).map(
-      (skill: any) => skill.body.static as string
+      (skill: any) => skill?.body?.static || skill.b.s as string
     ),
   },
   {
     name: t("skill_categories.frameworks.name"),
     color: "bg-green-500",
     skills: (tm("skill_categories.frameworks.skills") as unknown as any[]).map(
-      (skill: any) => skill.body.static as string
+      (skill: any) => skill?.body?.static || skill.b.s as string || ''
     ),
   },
   {
     name: t("skill_categories.databases.name"),
     color: "bg-purple-500",
     skills: (tm("skill_categories.databases.skills") as unknown as any[]).map(
-      (skill: any) => skill.body.static as string
+      (skill: any) => skill?.body?.static || skill.b.s as string || ''
     ),
   },
   {
     name: t("skill_categories.devops.name"),
     color: "bg-orange-500",
     skills: (tm("skill_categories.devops.skills") as unknown as any[]).map(
-      (skill: any) => skill.body.static as string
+      (skill: any) => skill?.body?.s || skill.b.s as string || ''
     ),
   },
 ];
@@ -253,10 +253,11 @@ const educationItems: EducationItem[] = [
 const portfolioItems: PortfolioItem[] = (
   tm("portfolio_items") as unknown as any[]
 ).map((item: any) => {
+	console.log(item);
   return {
-    title: item.title.body?.static as string,
-    subtitle: item.subtitle.body?.static.replace("/at/", "@") as string,
-    href: item.href.body?.static as string,
+    title: (item.title?.body?.static || item.title.b.s as string || '') as string,
+    subtitle: (item.subtitle?.body?.static || item.subtitle.b.s as string || '').replace("/at/", "@") as string,
+    href: (item.href?.body?.static || item.href.b.s as string || ''),
   };
 });
 </script>
