@@ -285,7 +285,7 @@ const portfolioItems: PortfolioItem[] = (
           <UButton
             variant="outline"
             size="sm"
-            :color="locale === 'ko' ? 'blue' : 'green'"
+            :color="locale === 'ko' ? 'primary' : 'secondary'"
             @click="toggleLanguage"
           >
             {{ $t("language") }}
@@ -402,7 +402,7 @@ const portfolioItems: PortfolioItem[] = (
                 <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
                   {{ $t(exp.companyKey) }}
                 </h3>
-                <UBadge v-if="exp.badgeKey" color="blue" variant="solid">
+                <UBadge v-if="exp.badgeKey" color="primary" variant="solid">
                   {{ $t(exp.badgeKey) }}
                 </UBadge>
               </div>
@@ -486,10 +486,12 @@ const portfolioItems: PortfolioItem[] = (
             >
               <div>
                 <h3 class="font-medium text-gray-900 dark:text-white">
-                  {{ tOrText(item.title) }}
+                  {{ tOrText(item.titleKey, item.title) }}
                 </h3>
                 <p class="text-sm text-gray-600 dark:text-gray-300">
-                  {{ tOrText(item.subtitleKey, item.subtitle) }}
+									<div
+									class="markdown-body"
+									v-html="renderMarkdown(tOrText(item.subtitleKey, item.subtitle))"></div>
                 </p>
               </div>
               <UButton size="sm" @click="handleVisit(item.href)">

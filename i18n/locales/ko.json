@@ -109,13 +109,13 @@
           "heading": "관리사이트 보안 기능 개발(PHP)",
           "date": "2020.12 - 2021.01",
           "description": "로그인 편의성을 위해 로그인 정보를 LocalStorage와 JWT로만 관리하다보니 관리자 쿠키가 탈취 되었고 관리자로 로그인한 해커는 중요정보를 전부 삭제하였음.",
-          "detail": "\n\t- 중요정보를 변경하기 위해서는 반드시 비밀번호 입력을 하도록 기능을 추가 하였습니다."
+          "detail": " - 중요정보를 변경하기 위해서는 반드시 비밀번호 입력을 하도록 기능을 추가 하였습니다."
         },
         "project2": {
           "heading": "트래픽관리 IDC",
           "date": "2020.12 - 2021.03",
           "description": "실시간 트래픽 그래프를 확인하여 스위치에 ssh를 통해 접근하여 QoS 설정 및 포트 차단업무.",
-          "detail": "\n\t- 리눅스의 사용과 서버의 DDos공격을 받아 KT와 협업을 통해 해결 경험"
+          "detail": " - 리눅스의 사용과 서버의 DDos공격을 받아 KT와 협업을 통해 해결 경험"
         }
       }
     }
@@ -153,31 +153,31 @@
   "portfolio_items": [
     {
       "title": "픽클래스",
-      "subtitle": "학생, 선생, 원장을 연결시켜주는 플랫폼 1인 개발 (test/at/test.com/test123)",
+      "subtitle": "학생, 선생, 원장을 연결시켜주는 플랫폼 \n 1인 개발 \n test/at/test.com / test123",
       "detail": "",
       "href": "https://픽클.com"
     },
     {
       "title": "트래블듀오",
-      "subtitle": "여행기록 2인 개발 - IOS, Android flutter App + Web View",
+      "subtitle": "여행기록 \n 2인 개발 \n IOS, Android flutter App + Web View",
       "detail": "",
       "href": "https://apps.apple.com/kr/app/%ED%8A%B8%EB%9E%98%EB%B8%94%EB%93%80%EC%98%A4/id6670733527"
     },
     {
       "title": "STAMP Note",
-      "subtitle": "쿠폰시스템 제품 기획 및 프론트엔드 개발 - nuxtjs",
+      "subtitle": "쿠폰시스템 제품 기획 및 프론트엔드 개발",
       "detail": "",
       "href": "https://mackolee.github.io/stamp-note/"
     },
     {
       "title": "Todo Calendar",
-      "subtitle": "할 일을 캘린더에 추가하는 웹 어플리케이션 개발 - nextjs",
+      "subtitle": "할 일을 캘린더에 추가하는 웹 어플리케이션 개발",
       "detail": "",
       "href": "https://mackolee.github.io/todo-calendar/"
     },
     {
       "title": "Coding Test UI",
-      "subtitle": "코딩테스트 UI 개발 - nuxtjs",
+      "subtitle": "코딩테스트 UI 개발",
       "detail": "",
       "href": "https://mackolee.github.io/coding/"
     },
