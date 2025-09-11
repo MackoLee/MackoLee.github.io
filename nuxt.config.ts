@@ -12,6 +12,14 @@ export default defineNuxtConfig({
       { code: "en", name: "English", file: "en.json" },
     ],
   },
+  app: {
+    // cdnURL: 'https://mackolee.github.io/',
+    buildAssetsDir: "./",
+    head: {
+      link: [{ rel: "icon", type: "image/png", href: "/favicon.png" }],
+      title: "Macko",
+    },
+  },
 
   css: ["~/assets/css/main.css"],
 
