@@ -4,29 +4,26 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev --dotenv configs/.env.dev --port 8080",
+    "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "git-generate": "nuxt generate --dotenv configs/.env.git",
-    "start": "nuxt start"
-  },
-  "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "@nuxt/eslint-config": "^0.2.0",
-    "@nuxt/ui": "^2.8.1",
-    "@nuxtjs/eslint-module": "^4.1.0",
-    "@nuxtjs/i18n": "^8.0.0-rc.4",
-    "eslint": "^8.49.0",
-    "eslint-plugin-nuxt": "^3.2.0",
-    "nuxt": "^3.7.3",
-    "nuxt-icon": "^0.5.0",
-    "sass": "^1.67.0"
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
   },
   "dependencies": {
-    "@unhead/vue": "^1.9.16",
+    "@iconify-json/lucide": "^1.2.66",
+    "@iconify-json/simple-icons": "^1.2.50",
+    "@nuxt/ui": "^3.3.3",
+    "@nuxtjs/i18n": "10.1.0",
     "markdown-it": "^14.1.0",
-    "mitt": "^3.0.1",
-    "unhead": "^1.9.16"
-  }
+    "nuxt": "^4.1.1"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.9.0",
+    "@types/markdown-it": "^14.1.2",
+    "eslint": "^9.35.0",
+    "typescript": "^5.9.2"
+  },
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
 }

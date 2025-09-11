@@ -1,76 +1,18 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    vite: {
-        optimizeDeps: {disabled: false},
-        plugins: [
-        ],
-        build: {
-            commonjsOptions: {
-                include: []
-            }
-        },
+  devtools: { enabled: true },
 
-    },
-    runtimeConfig: {
-        public: {
-            GOOGLE_API_KEY: process.env.GOOGLE_API_KEY,
-            SPREAD_SHEET_ID: process.env.SPREAD_SHEET_ID,
-        }
-    },
-    imports: {
-        dirs: [
-            // Scan all-level modules
-            'composables/**',
-        ]
-    },
-    devtools: {enabled: true},
-    ssr: (process.env.SSR === 'true'),
-    // ssr: true,
-    app: {
-        // cdnURL: 'https://mackolee.github.io/',
-        buildAssetsDir: './',
-        head: {
-            link: [
-                { rel: 'icon', type: 'image/png', href: '/favicon.png' }
-            ],
-						title: 'Macko',
-        }
-    },
-    dir: {
-        public: 'public',
-    },
-    css: ['~/assets/styles/main.css'],
+  modules: ["@nuxt/ui", "@nuxt/eslint", "@nuxtjs/i18n"],
 
-    modules: [
-        '@nuxtjs/eslint-module',
-        '@nuxtjs/i18n',
-        '@nuxt/ui',
-        '@nuxtjs/color-mode'
+  i18n: {
+    defaultLocale: "ko",
+    locales: [
+      { code: "ko", name: "Korean", file: "ko.json" },
+      { code: "en", name: "English", file: "en.json" },
     ],
-    plugins: [
+  },
 
-    ],
-    eslint: {},
-    i18n: {
-        strategy: 'prefix_and_default',
-        defaultLocale: 'ko',
-        vueI18n: './i18n.config.ts',
-        locales: [
-            {
-                code: 'en',
-                iso: 'en-US',
-            },
-            {
-                code: 'ko',
-                iso: 'ko-KR',
-            },
-        ]
-    },
+  css: ["~/assets/css/main.css"],
 
-    colorMode: {
-        preference: 'system',
-        fallback: 'light',
-        classSuffix: '',
-    }
-
+  compatibilityDate: "2025-07-16",
 });
