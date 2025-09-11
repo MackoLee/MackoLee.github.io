@@ -1,1 +1,192 @@
-{}
+{
+  "name": "Yoon-Gun Lee",
+  "job": "AI & Automation Frontend Developer",
+  "language": "English",
+  "visit": "Visit",
+  "rights": "All rights reserved.",
+  "phone": "+82-10-2527-2927",
+  "email": "sangok1993/at/naver.com",
+  "about": "About",
+  "about_content": {
+    "title": "Yoon-Gun Lee, a developer who learns and grows with value.",
+    "first": "First",
+    "first_content": "Led app and web app development projects, successfully managing the entire process from design to implementation and automation. Significantly improved development productivity by introducing a deployment process through separating Staging and Production servers and automating version control using Git Tags.",
+    "second": "Second",
+    "second_content": "Continuously growing by learning new technologies and applying them to real projects. Introduced Zustand, Tailwindcss, SSR, GraphQL, designed Backend Architecture, and conducted personal projects through Google Console, applying insights gained to company projects.",
+    "third": "Third",
+    "third_content": "Beyond mastering technology, I strive to be a developer who understands business goals and contributes my skills. I listened directly to the difficulties faced by an acquaintance running a music academy in managing students, teachers, and the academy, and started an app development project to solve them.",
+    "fourth": "I will continue to be a developer who adds practical value using my skills."
+  },
+  "experience": "Experience",
+  "experience_items": {
+    "total_experience": "4 years 3 months experience",
+    "super_run": {
+      "company": "SuperRun",
+      "date": "2025.08 - Present (2 months) Full-time",
+      "badge": "Currently Employed",
+      "projects": {
+        "project1": {
+          "heading": "Research in progress for Startup Growth Technology Development Project",
+          "date": "2025.09 - 2025.09",
+          "description": "Startup Growth Technology Development Project (Stepping Stone) - Research Server Setup",
+          "members": "Personnel: 1 Developer",
+          "detail": "\n1. Analysis Server Setup\n\t- Designed and built a server for achieving research results: server design utilizing fastapi + celery + redis (100%)"
+        }
+      }
+    },
+    "repich": {
+      "company": "Repich Co., Ltd.",
+      "date": "2024.06 - 2025.08 (1 year 3 months) Full-time",
+      "projects": {
+        "project1": {
+          "heading": "LG CNS On-Device AI Challenge Performance Presentation",
+          "date": "2024.06 - 2024.09",
+          "description": "Achievement: Selected among 10 out of 128 companies and participated in booth operation",
+          "members": "Personnel: 1 Developer, 1 Designer",
+          "detail": "\n1. Smart Player Development (90%)\n\t- Smart player with STT subtitles, AI video segment generation, AI summary, AI Q&A, and note-taking for learners\n2. Planning: Collaboration with designer (30%)\n\t- Electron + Nextjs (SPA) exe application development (100%)\n3. Backend and Video Analysis Server Development (100%)\n\t- STT service, AI summary, AI Q&A function development (100%)\n\t- Database design (100%)\n\t- Backend development using Nestjs + FFmpeg + GoogleSTT (100%)\n4. Infrastructure Setup (100%)\n\t- Server and DB setup using Kakao Cloud VM (100%)"
+        },
+        "project2": {
+          "heading": "Administrator Page Development and Player Advancement",
+          "date": "2024.10 - 2024.12",
+          "description": "Achievement: Added player video upload and STT management functions.",
+          "members": "Personnel: 2 Developers, 1 Designer",
+          "detail": "\n1. Smart Player Development (90%)\n\t- Refined the Nextjs-based player into a SaaS service after not being selected by 3 LG CNS companies\n\t- Technical debt and bug fixes due to LG CNS MVP application development (100%)\n\t- Markdown note-taking function introduced (100%)\n2. Planning: Collaboration with designer (30%)\n3. Administrator Page Development (50%)\n\t- Site development for effective video management.\n\t- Video management system development (50%)\n4. Backend (100%)\n\t- GraphQL introduction (100%)\n5. Infrastructure Setup (80%)\n\t- Video storage and retrieval system built using Google Cloud VM, Database, and Storage (100%)"
+        },
+        "project3": {
+          "heading": "LMS Development",
+          "date": "2024.11 - 2025.08",
+          "description": "Achievement: Introduced course packaging and payment system. Separated Production, Staging servers and Database. Automated deployment.",
+          "members": "Personnel: 3 Developers, 2 Designers",
+          "detail": "\n1. Smart Player Development (90%)\n\t- Added functionality to view packaged courses, track progress, and execute them (100%).\n\n2. Administrator Page (30%)\n\t- Page for registering and packaging courses, and managing students and staff.\n3. Video Management Function Development\n\t- Platform Page (20%)\n\t- Main page where users can purchase academy courses or view instructor profiles.\n\t- Designed and developed to show different screen compositions based on domain (80%).\n4. Backend (70%)\n\t- Developed APIs required for administrator and platform pages (60%).\n\t- Introduced payment (KG Inicis) and deployment (git action) automation, and separated Production server and Database (80%).\n5. Infrastructure (80%)\n\t- Applied Nginx wildcard domain and SSL, and separated servers based on URL."
+        },
+        "project4": {
+          "heading": "SME Technology Development (R&D) Support Project Research Test in Progress",
+          "date": "2025.07 - 2025.09",
+          "detail": "\n1. Preparation of Public Testing Agency Test Request Standards (20%)\n2. Test environment configuration and execution (100%)."
+        }
+      }
+    },
+    "eipgrid": {
+      "company": "EIPGRID Co., Ltd.",
+      "date": "2022.08 - 2024.06 (1 year 11 months) Full-time",
+      "projects": {
+        "project1": {
+          "heading": "Research and Development of Analytical Application",
+          "date": "2022.06 - 2024.04",
+          "link": "https://www.eipgrid.com/dare",
+          "detail": "\n1. Data Analysis and Comparison Tool: A tool for comparing various algorithms (D1)\n\t- ESS charge/discharge management algorithm (code refactoring and bug fixes)\n\t- Designed and developed with consultation from the company's CTO\n2. Web Application Production (90%)\n\t- Migrated from Vue2, Webpack to Vue3, Vite\n\t- Backend (Flask) Rest API (40%)\n\t- Dev and Prd deployment and environment management using Docker, Web bundler (50%)\n3. Data Visualization Tool: A tool for creating, listing, saving, and sharing charts externally (D3)\n\t- Designed and developed by a team of 2 developers with consultation from the company's CTO\n\t- Web application production (50%)\n\t- Backend (Flask) Rest API and service logic design and development (40%)\n\t- Dev and Prd deployment and environment management using Docker, Web bundler (30%)\n\t- PostgreSQL procedure functions and DB creation (60%)"
+        },
+        "project2": {
+          "heading": "Electric Vehicle Charging Management Application Development (Demo)",
+          "date": "2023.11 - 2024.04",
+          "description": "An application that receives and manages real-time information about electric vehicle charging",
+          "detail": "\n1. Backend (Java) Rest API Design and Development (30%)\n2. Web Application (Vue) Development (40%)\n\t- Introduced a new UI Framework and state management tool with colleagues.\n3. Analysis Server Development (20%)\n\t- Truck dispatch algorithm (50%)\n\t- Algorithm for selecting trucks by calculating distances between vehicles (code refactoring and bug fixes)\n\t- Improved GPS distance calculation logic speed. 14.5 seconds -> 0.5 seconds (O(n * n * n) -> O(n * n))\n5. Deployed analysis server to AWS using Docker\n6. Successfully completed design and feature changes the day before the showcase by working through the night."
+        },
+        "project3": {
+          "heading": "Retail VPP Application Development (Demo)",
+          "date": "2024.01 - 2024.04",
+          "description": "A platform application where retailers can save electricity and earn money in the market",
+          "detail": "\n1. Analysis Server Algorithm Development\n\t- Developed scheduling logic using Redis in preparation for distributed environments (30%)\n2. Backend (FastAPI) Rest API Development\n\t- Migrated Flask application to FastAPI\n3. Web Application (Vue) Development\n\t- Introduced Tailwindcss\n4. Deployed analysis server to AWS using Docker"
+        }
+      }
+    },
+    "ion_communications": {
+      "company": "ION Communications Co., Ltd.",
+      "date": "2021.12 - 2022.08 (9 months)",
+      "projects": {
+        "project1": {
+          "heading": "EIPGRID Headquarters Spinoff",
+          "date": "2022.08 - 2022.08",
+          "detail": "- EIPGRID Headquarters Spinoff"
+        }
+      }
+    },
+    "majoonsoft": {
+      "company": "Majoonsoft Co., Ltd.",
+      "date": "2020.11 - 2021.03 (5 months)",
+      "projects": {
+        "project1": {
+          "heading": "Management Site Security Feature Development (PHP)",
+          "date": "2020.12 - 2021.01",
+          "description": "Due to managing login information only with LocalStorage and JWT for login convenience, the administrator cookie was stolen, and a hacker logged in as an administrator and deleted all important information.",
+          "detail": "\n\t- Added a function that requires password entry to change important information."
+        },
+        "project2": {
+          "heading": "Traffic Management IDC",
+          "date": "2020.12 - 2021.03",
+          "description": "Real-time traffic graph confirmation and QoS setting and port blocking tasks by accessing switches via ssh.",
+          "members": "Personnel: 1 Developer",
+          "detail": "\n\t- Experienced solving DDoS attacks on servers in collaboration with KT using Linux."
+        }
+      }
+    }
+  },
+  "skills": "Skills",
+  "skill_categories": {
+    "languages": {
+      "name": "Languages",
+      "skills": ["Python", "JavaScript", "Java", "TypeScript", "C++"]
+    },
+    "frameworks": {
+      "name": "Frameworks & Libraries",
+      "skills": ["VueJS", "Git", "Spring Framework", "React.js", "Flask"]
+    },
+    "databases": { "name": "Databases", "skills": ["PostgreSQL", "MySQL"] },
+    "devops": {
+      "name": "DevOps & Cloud",
+      "skills": ["EC2", "Ubuntu", "Docker"]
+    }
+  },
+  "education": "Education",
+  "education_items": {
+    "ajou_university": {
+      "school": "Ajou University Graduate School of Information and Communication",
+      "date": "2018.03 - 2020.02 Information and Communication Engineering",
+      "description": "Completed Intelligent Software. Expected to graduate after writing a thesis if a research project is found after completion."
+    },
+    "korea_aerospace_university": {
+      "school": "Korea Aerospace University",
+      "date": "2012.03 - 2016.02 Software Engineering",
+      "description": "Research: Bicycle Navigation. Achievement: Top graduate in 2016. Guidance using communication between Android application and laser. Java (Android Studio) - API 연동 및 로직 개발(50%), UI 개발(50%). Arduino - Directional laser output logic development."
+    }
+  },
+  "portfolio": "Portfolio",
+  "portfolio_items": [
+    {
+      "title": "Pickclass",
+      "subtitle": "Platform connecting students, teachers, and directors \n 1-person development \n test/at/test.com / test123",
+      "detail": "",
+      "href": "https://픽클.com"
+    },
+    {
+      "title": "Travel Duo",
+      "subtitle": "Travel record \n 2-person development \n iOS, Android Flutter App + Web View",
+      "detail": "",
+      "href": "https://apps.apple.com/kr/app/%ED%8A%B8%EB%9E%98%EB%B8%94%EB%93%80%EC%98%A4/id6670733527"
+    },
+    {
+      "title": "STAMP Note",
+      "subtitle": "Coupon system product planning and frontend development \n nuxtjs",
+      "detail": "",
+      "href": "https://mackolee.github.io/stamp-note/"
+    },
+    {
+      "title": "Todo Calendar",
+      "subtitle": "Web application development to add tasks to calendar \n nextjs",
+      "detail": "",
+      "href": "https://mackolee.github.io/todo-calendar/"
+    },
+    {
+      "title": "Coding Test UI",
+      "subtitle": "Coding test UI development \n nuxtjs",
+      "detail": "",
+      "href": "https://mackolee.github.io/coding/"
+    },
+    {
+      "title": "Play Game",
+      "subtitle": "",
+      "detail": "",
+      "href": "https://mackolee.github.io/play-game/"
+    }
+  ]
+}
